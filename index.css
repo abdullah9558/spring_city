@@ -4,7 +4,7 @@ body {
 
 #transparency {
     position: absolute;
-    top: 182px;
+    top: 130px;
     right: 12px;
     z-index: 1000;
     border-radius: 4px;
@@ -81,13 +81,4 @@ body {
    background-color: rgb(255, 255, 255);
    border-radius: 4px;
    padding: 4px;
-}
-
-leaflet-ruler {
-    top: 70px;
-    height: 35px;
-    width: 35px;
-    background-image: url(../dist/icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }

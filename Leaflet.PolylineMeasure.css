@@ -6,10 +6,11 @@
 	box-shadow: 1px 1px 4px #888;
 	margin: 0;
 	padding: 2px;
-	width: auto !important;
-	height: auto !important;
+	/* width: 35px ;
+	height: 35px; */
 	white-space: nowrap;
     text-align: right;
+
 }
 
 .polyline-measure-tooltip-end {
@@ -28,6 +29,12 @@
 .polyline-measure-unicode-icon {
 	font-size: 19px;
 	font-weight: bold;
+	position: absolute;
+	/* left : 960px; */
+	bottom: -18px;
+	height: 35px;
+	width: 35px;
+	top: 1px;
 }
 .leaflet-control {
 	cursor: pointer;
